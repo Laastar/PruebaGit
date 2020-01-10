@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Formlario</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<h1 class="hache">Registro</h1>
+
+	<form action="" id="formulario">
+
+		<label class="titulo">Nombre y Apellidos</label>
+		<div class="principal">
+			<ul type="none">
+				<li><input type="text" placeholder="John"></li>
+				<label class="ayuda" for="">Nombre</label>
+				<li><input type="text" placeholder="Doe"></li>
+				<label class="ayuda" for="">Apellido Paterno</label>
+				<li><input type="text" ></li>
+				<label class="ayuda" for="">Apellido Materno</label>
+			</ul>
+		</div>
+		<br><br>
+		<label class="titulo">Direccion</label>
+		<div class="principal">
+			<ul type="none">
+				<li><input type="text" placeholder="Calle"></li>
+				<label class="ayuda" for="">Calle</label>
+				<li><input type="text" placeholder="Numero"></li>
+				<label class="ayuda" for="">Numero</label>
+				<li><input type="text" placeholder="Colonia"></li>
+				<label class="ayuda" for="">Colonia</label>
+			</ul>
+		</div>
+		<br><br>
+		<label class="titulo">Email</label>
+		<div class="principal">
+			<ul type="none">
+				<li><input type="text" placeholder="user@mail.com"></li>
+				<label class="ayuda" for="">Correo Electrónico</label>
+			</ul>
+		</div>
+		<br><br>
+		<label class="titulo">Contraseña</label>
+		<div class="principal">
+			<ul type="none">
+				<li><input type="password" placeholder=""></li>
+				<label class="ayuda" for="">Contraseña</label>
+			</ul>
+		</div>
+		<br><br>
+		<label class="titulo">Telefono</label>
+		<div class="principal">
+			<ul type="none">
+				<li><input type="tel" placeholder="555-555-555" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"></li>
+				<label class="ayuda" for="">Telefono</label>
+			</ul>
+		</div>
+		<br><br>
+		<label class="titulo">Biografia</label>
+		<div class="principal">
+			<ul type="none">
+				<li><input type="textarea" placeholder="Soy..."></li>
+				<label class="ayuda" for="">Biografia</label>
+			</ul>
+		</div>
+		<br><br>
+		<div class="enviar">
+			<input type="submit" />
+		</div>
+	</form>
+	
+	<!--
+	<textarea form ="formulario" name="taname" id="taid" cols="35" wrap="soft"></textarea>
+	<br><br>
+				<input type="radio" name="gender" value="Hombre" checked> Hombre<br>
+				<input type="radio" name="gender" value="Mujer"> Mujer<br>
+				<input type="radio" name="gender" value="Otro"> Otro
+	-->
+</body>
+</html>
